@@ -21,9 +21,9 @@ title_separator          : "&ndash;"
 subtitle                 : "Web Developer" # site tagline that appears below site title in masthead
 name                     : "Hein Htet Aung"
 description              : "Personal blog. Hein Htet Aung"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.heinhtetaung.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hnhtag/personal-blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -70,18 +70,21 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "hnhtag"
 facebook:
-  username               :
+  username               : "hnhtag.me"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/hnhtag.webp" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/hnhtag"
+    - "https://facebook.com/hnhtag.me"
+    - "https://github.com/hnhtag"
 
 # Analytics
 analytics:
@@ -95,13 +98,13 @@ analytics:
 author:
   name             : "Hein Htet Aung"
   avatar           : "/assets/images/hnhtag.webp" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A developer."
-  location         : "Dedaye, MM"
-  email            :
+  bio              : "A developer from Dedaye."
+  location         : 
+  email            : "heinhtetaung.ose@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:heinhtetaung.ose@gmail.com"
+      # url: "mailto:heinhtetaung.ose@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://www.heinhtetaung.com"
