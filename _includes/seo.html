@@ -10,6 +10,11 @@
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 
+<!-- override for home page -->
+{%- if page.layout == "home" -%}
+  {%- assign seo_title = page.title -%}
+{%- endif -%}
+
 {%- if seo_title -%}
   {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}
