@@ -15,12 +15,12 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "my-MM"
+locale                   : "en-US"
 title                    : "Hein Htet Aung"
 title_separator          : "&ndash;"
 subtitle                 : "Web Developer" # site tagline that appears below site title in masthead
 name                     : "Hein Htet Aung"
-description              : "Personal blog. Hein Htet Aung"
+description              : "Personal blog. Hein Htet Aung, a web developer, former co-founder of IT Club UCSMUB, a computer science student at the University of Computer Studies (Maubin)."
 url                      : "https://www.heinhtetaung.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hnhtag/personal-blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
