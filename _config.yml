@@ -75,7 +75,7 @@ facebook:
   username               : "hnhtag.me"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/hnhtag.webp" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/hnhtag.1280.webp" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : "Hein Htet Aung"
-  avatar           : "/assets/images/hnhtag.webp" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/hnhtag.128.webp" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A developer from Dedaye."
   location         : 
   email            : "heinhtetaung.ose@gmail.com"
